@@ -1,0 +1,139 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #636EFD;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-text h1{
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 2em;
+  color: #fff;
+}
+
+  @media (min-width: 700px) {
+    .hero {
+      padding: 3rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .hero {
+      padding: 6rem;
+    }
+  }
+  
+  .hero-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  @media (min-width: 800px) {
+    .hero-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+    
+  
+  .hero-inner p,
+  .hero h2 {
+    color: #fff;
+  }
+  
+  .hero-button {
+    background: #fff;
+    color: #444;
+    border: 0;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+
+
+  
+  @media (min-width: 700px) {
+    .hero-button {
+      margin-top: 2rem;
+    }
+  }
+  
+  .hero-image {
+    order: -1;
+    justify-items: center;
+  }
+  
+  @media (min-width: 800px) {
+    .hero-image {
+      order: initial;
+    }
+  }
+  
+  .hero-image img {
+    width: 100%;
+  }
+  
+  .hero-form {
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 700px) {
+    .hero-form {
+      margin-top: 2rem;
+    }
+  }
+  
+  /* .hero-form-input {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 400px) {
+    .hero-form-input {
+      display: grid;
+      grid-template-columns: 1fr auto;
+    }
+  } */
+  .hero-form-submit {
+    background-color: #F50057;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: .5rem;
+    margin-right: 0.5rem;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  .hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px white solid;
+    padding: 1rem 2rem;
+    margin-top: .5rem;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover {
+  border: 1px solid #F50057;
+  background: #F50057;
+  transition: 0.5s;
+}
+  @media (min-width: 400px) {
+    .hero-form-submit {
+      margin-top: 0;
+    }
+  }
+

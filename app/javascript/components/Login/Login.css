@@ -1,0 +1,66 @@
+.register
+{
+    text-align: center;
+    border-top: 1px solid #aaa;
+    padding: 40px 30px;
+}
+.register .titletext
+{
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 40px;
+}
+.register .titletext span
+{
+    color: #828bff;
+}  
+.login-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background: #7881fa;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    height: auto;
+}
+.login-form .formimg img
+{
+    width: 350px;
+    border-radius: 25px;
+    max-width: 100%;
+    object-fit: cover;
+}
+.login-form .formcontent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.login-form .formcontent input
+{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: 90%;
+}
+.register .login-form .btn
+{
+    margin-top: 10px;
+    border: none;
+    padding: 10px 30px;
+    background: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+.link-form{
+    color: #fff;
+}
